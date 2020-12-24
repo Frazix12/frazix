@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<!-- prettier-ignore -->
+<html class="insetting">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Clippy — CSS clip-path maker</title>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="style.min.css" />
+		<link rel="shortcut icon" href="pics/favicon.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="pics/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="pics/apple-touch-icon-152x152.png" />
+		<link rel="icon" sizes="196x196" href="pics/homescreen-196x196.png" />
+		<meta name="viewport" content="width=device-width" />
+	</head>
+	<body>
+<div class="main">
+<header class="fade-content">
+<a href="index.html">CSS clip-path maker</a>
+</header>
+<div class="demo-container fade-content">
+<section class="demo">
+<div id="box" class="box">
+<div class="shadowboard"></div>
+<div class="clipboard"></div>
+<div class="handles"></div>
+</div>
+<div class="custom-notice">
+						<div>
+<span class="touchy"></span> to add points<br>to custom polygon.
+</div>
+					</div>
+				</section>
+			</div>
+			<section class="dark-panel custom">
+				<h2>Custom shape</h2>
+				<button class="finish"></button>
+			</section>
+			<section class="dark-panel inset">
+				<div class="flex">
+					<h2>Round edges</h2>
+					<input value="5% 20% 0 10%" class="inset-round" type="text" />
+				</div>
+				<p>
+					The <code>inset()</code> shape optionally allows values
+					similar to <code>border-radius</code> for rounded edges.
+					This new feature may be buggy in
+					<span class="your-browser">your browser</span>.
+				</p>
+			</section>
+			<section id="flickity" class="shapes horizontal gallery">
+				<ul></ul>
+			</section>
+			<section class="clip-path" tabindex="-1">
+				<div class="css-code code fade-content">
+<code class="unprefixed block show">clip-path: <span class="functions"></span>;</code>
+				</div>
+			</section>
+		</div>
+		<div class="side">
+			<section class="grid panel ad-box">
+				<div class="beg">
+<div>Thank you for visiting either way!</div>
+				</div>
+<script async type="text/javascript" src="dev/carbon.js" id="_carbonads_js"></script>
+			</section>
+			<section class="dark-panel inset">
+				<div class="flex">
+					<h2>Round edges</h2>
+					<input value="5% 20% 0 10%" class="inset-round" type="text" />
+				</div>
+				<p>
+					The <code>inset()</code> shape optionally allows values
+					similar to <code>border-radius</code> for rounded edges.
+					This new feature may be buggy in
+					<span class="your-browser">your browser</span>.
+				</p>
+			</section>
+			<section class="dark-panel custom">
+				<h2>Custom shape</h2>
+				<button class="finish"></button>
+			</section>
+			<section class="shapes vertical" tabindex="-1">
+				<ul></ul>
+			</section>
+			<section class="options">
+				<div class="grid panel flex fade-content">
+					<h2>Demo Size</h2>
+					<input id="demo_width" value="280" type="number" />
+					<h2>&times;</h2>
+					<input id="demo_height" value="280" type="number" />
+				</div>
+				<div class="grid panel fade-content">
+					<h2>Demo Background</h2>
+					<div class="backgrounds">
+<img src="pics/pittsburgh.jpg" />
+<img src="pics/fierenze.jpg" />
+<img src="pics/sparkler.jpg" />
+<img src="pics/miami.jpg" />
+					</div>
+					<input placeholder="Custom URL..." id="custom_url" type="url" name="background" />
+					<style id="custom_background"></style>
+					<div class="flex shadowboard-toggle">
+						<h2>Show outside clip-path</h2>
+						<input name="prefix" type="checkbox" id="shadowboard-toggle" />
+						<label class="joined" for="shadowboard-toggle"></label>
+					</div>
+				</div>
+				<div class="grid panel fade-content">
+					<h2>About Clip Paths</h2>
+					<p>The <code>clip-path</code> property allows you to make complex shapes in CSS by clipping an element to a basic shape (circle, ellipse, polygon, or inset), or to an SVG source.</p>
+					<p>CSS Animations and transitions are possible with two or more clip-path shapes with the same number of points.</p>
+				</div>
+			</section>
+		</div>
+<script src="dev/jquery.js"></script>
+		<script src="draggabilly.min.js"></script>
+<script src="dev/flickity.pkgd.min.js"></script>
+<script src="dev/clip.js"></script>
+<script src="clip.min.js"></script>
+<script async src="dev/gtag.js"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35724550-1');</script></body>
+</html>
